@@ -16,5 +16,9 @@ namespace Foundation.Features.Blocks.TextBlock
         [CultureSpecific]
         [Display(Name = "Main body")]
         public virtual XhtmlString MainBody { get; set; }
+
+        [CultureSpecific]
+        [Display(Name = "Main body2")]
+        public virtual XhtmlString MainBody2 { get; set; }
     }
 }

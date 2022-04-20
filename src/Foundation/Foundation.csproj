@@ -50,4 +50,8 @@
     <Content Remove="Features\Shared\Views\ElementBlocks\ChoiceElementBlock.cshtml" />
     <None Include="Features\Shared\Views\ElementBlocks\ChoiceElementBlock.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\NewFolder1\" />
+    <Folder Include="Features\NewFolder\" />
+  </ItemGroup>
 </Project>

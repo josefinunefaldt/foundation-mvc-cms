@@ -39,6 +39,7 @@
                     <h4 class="small" style="@textColor">@Model.CategoryName</h4>
                 }
                 <h1 style="padding: 1em 0; @textColor">@Html.PropertyFor(x => x.CurrentContent.Name)</h1>
+                @Model.CurrentContent.Name
             </div>
             <div class="standard-page__hero @heroClass">
                 @if (!ContentReference.IsNullOrEmpty(Model.CurrentContent.BackgroundVideo))
